@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Home extends Component {
     render() {
@@ -14,7 +15,7 @@ class Home extends Component {
                             <div class="card-header"><i class="fas fa-table mr-1"></i>HOME</div>
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    BEM-VINDO AO SISTEMA
+                                    <Link to="/users">PAINEL DE USUARIOS</Link>
                                 </div>
                             </div>
                         </div>
